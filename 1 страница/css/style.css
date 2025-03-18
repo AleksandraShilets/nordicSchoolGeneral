@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+} 
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.bg_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/шапка.png');
+    height: 560px;
+    position: relative;
+}
+
+.spasskaya {
+    width: 63px;
+    height: 63px;
+    top: 21px;
+    left: 185px;
+    position: absolute;
+}
+
+.mymoscow {
+    width: 189px;
+    height: 35px;
+    top: 35px;
+    left: 266px;
+    position: absolute;
+}
+
+.menu {
+    width: 545px;
+    height: 71px;
+    top: 51px;
+    left: 913px;
+    position: absolute;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 16,99px;
+    margin: 0 10px;
+}
+
+.bg_title {
+    width: 739px;
+    height: 180px;
+    top: 199px;
+    left: 397px;
+    position: absolute;
+}
+
+.bg_title h1 {
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 69.14px;
+    text-align: center;
+    color: white;
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+}
+
+.bg_title p {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+    color: white;
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+}
+
+/* .bg_title button {
+    background-color: #709DCA;
+    color: white;
+    width: 188px;
+    height: 49px;
+    border: none;
+} */
+
+.btn {
+    top: 411px;
+    left: 656px;
+    position: absolute;
+}
+
+.btn button {
+    background-color: #709DCA;
+    color: white;
+    width: 188px;
+    height: 49px;
+    border: none;
+}
+
+.main_div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main_div h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #709DCA;
+    font-weight: 300;
+}
+
+.main_div p {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #394B50;
+    /* text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+}
+
+.main_section_div {
+    width: 550px;
+    text-align: right;
+    display: flex;
+    margin-top: 50px;
+}
+
+.main_section_div img {
+    width: 55px;
+    height: 45px;
+    padding-right: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main_section_div2 {
+    width: 562px;
+    text-align: left;
+    display: flex;
+    margin-right: 188px;
+    margin-top: 50px;
+}
+
+.div_selfie {
+    width: 750px;
+}
+
+.div_selfie img {
+    width: 750px;
+}
+
+.div_text {
+    width: 750px;
+    height: 450px;
+    background-color: orange;
+    color: white;
+    padding: 50px 0px 0px 35px;
+}
+
+.div_text h1 {
+    font-family: Roboto;
+    font-size: 26px;
+    line-height: 30.47px;
+    font-weight: 400;
+}
+
+.div_text p {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.div_text button {
+    width: 184px;
+    height: 46px;
+    border: 1px 0px 0px 0px;
+    background-color: #F3AF37;
+    border-color: #FFA300;
+    color: white;
+    font-size: 16px;
+}
+
+.under_selfie {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.under_selfie h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #709DCA;
+    font-weight: 300;
+}
+
+.under_selfie div {
+    display: inline-block;
+    width: 218.97px;
+    height: 3px;
+    background-color: orange;
+}
+
+.under_selfie p {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #062033;
+}
+
+.moscow_img {
+    margin-top: 50px;
+}
+
+.moscow_img img {
+    width: 375px;
+    height: 284px;
+    flex-grow: 1;
+}
+
+.under_img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.under_img h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #709DCA;
+    font-weight: 300;
+}
+
+.under_img div {
+    display: inline-block;
+    width: 218.97px;
+    height: 3px;
+    background-color: orange;
+}
+
+.otzivi {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 21.09px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+footer {
+    height: 352px;
+    background-color: #394B50;
+}
+
+footer div {
+    width: 400px;
+    margin-top: 50px;
+}
+
+/* footer div p {
+    margin-top: 15px;
+    text-align: justify;
+    color: #C3C3C3;
+} */
+

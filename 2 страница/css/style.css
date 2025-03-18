@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+} 
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.bg_header {
+    /* filter: brightness(50%); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/шаппка.png');
+    height: 563px;
+    position: relative;
+}
+
+.spasskaya {
+    width: 63px;
+    height: 63px;
+    top: 21px;
+    left: 185px;
+    position: absolute;
+}
+
+.mymoscow {
+    width: 189px;
+    height: 35px;
+    top: 39px;
+    left: 263px;
+    position: absolute;
+}
+
+.menu {
+    width: 545px;
+    height: 71px;
+    top: 39px;
+    left: 853px;
+    position: absolute;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 16,99px;
+    margin: 0 10px;
+}
+
+.bg_title {
+    width: 738.67px;
+    height: 180.07px;
+    top: 216.29px;
+    left: 387.2px;
+    gap: 0px;
+    opacity: 0px;    
+    position: absolute;
+}
+
+.bg_title h1 {
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 69.14px;
+    text-align: center;
+    color: white;
+}
+
+.bg_title p {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+    color: white;
+}
+
+.main_div {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main_div h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #709DCA;
+    font-weight: 300;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.div_image {
+    width: 750px;
+}
+
+.div_image img {
+    width: 750px;
+    height: 600px;
+}
+
+.div_text {
+    width: 750px;
+    height: 550px;
+    background-color: orange;
+    color: white;
+    padding: 50px 35px 0px 35px;
+}
+
+.div_text h1 {
+    font-family: Roboto;
+    font-size: 26px;
+    line-height: 30.47px;
+    font-weight: 400;
+}
+
+.div_text p {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.div_text button {
+    width: 184px;
+    height: 46px;
+    border: 1px 0px 0px 0px;
+    background-color: #F3AF37;
+    border-color: #FFA300;
+    color: white;
+    font-size: 16px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 352px;
+    background-color: #394B50;
+}
+
+footer div {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
