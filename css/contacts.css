@@ -1,0 +1,184 @@
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+} 
+
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.bg_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/шапппка.png');
+    height: 560px;
+    position: relative;
+}
+
+.spasskaya {
+    width: 63px;
+    height: 63px;
+    top: 21px;
+    left: 185px;
+    position: absolute;
+}
+
+.mymoscow {
+    width: 189px;
+    height: 35px;
+    top: 35px;
+    left: 266px;
+    position: absolute;
+}
+.menu {
+    width: 545px;
+    height: 71px;
+    top: 51px;
+    left: 913px;
+    position: absolute;
+    font-family:'Roboto Condensed',regular;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14,5px;
+    font-weight: 400;
+    line-height: 16,99px;
+    margin: 0 10px;
+    display: inline-block;
+    transform: scaleY(0.9);
+    /* letter-spacing: 0%; */
+}
+.menu__list {
+    display: flex;
+    gap: 15px;
+}
+.main_div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main_div h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #709DCA;
+    font-weight: 300;
+}
+
+.main_div2 {
+    width: 1300px;
+    height: 315px;
+    margin-top: 30px;
+    margin-left: 103px;
+}
+
+.main_div2 p {
+    font-family:'Roboto Condensed',regular ;
+    font-size: 22px;
+    line-height: 25.78px;
+    text-align: justify;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.main_div3 {
+    width: 626px;
+    height: 190.09px;
+    margin-left: 103px;
+    display: flex;
+    background-color: orange;
+}
+
+.main_div4 {
+    width: 626px;
+    height: 190.09px;
+    margin-top: -190px;
+    margin-left: 781px;
+    display: flex;
+    background-color: orange;
+}
+
+.main_div5 {
+    margin-left: 113px;
+    margin-top: 40px;   
+}
+
+.main_div5 img {
+    margin-top: 15px;
+}
+
+.main_div5 span {
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 25.78px;
+    text-align: left;
+}
+
+.main_div6 {
+    width: 626px;
+    height: auto; /* Высота зависит от содержимого */
+    margin-left: 785px;
+    margin-top: -200px;
+  }
+  
+  .main_div6 h1 {
+    font-family:'Roboto Condensed',regular ;
+    font-size: 30px;
+    line-height: 25.78px;
+    text-align: left;
+    color: #062033;
+  }
+  
+  /* Стили для полей ввода */
+  input {
+    font-family:'Roboto Condensed',regular ;
+    font-size: 27px;
+    line-height: 31.64px;
+    color: #BDBDBD;
+    border: 3px solid orange;
+    box-sizing: border-box;
+  }
+  
+  /* Стили для текстового сообщения */
+  textarea {
+    font-family:'Roboto Condensed',regular ;
+    font-size: 27px;
+    line-height: 31.64px;
+    color: #BDBDBD;
+    border: 3px solid orange;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+footer {
+    height: 352px;
+    background-color: #394B50;
+    font-family:'Roboto Condensed',regular ;
+    
+}
+
+footer div {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}

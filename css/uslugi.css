@@ -1,0 +1,259 @@
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+} 
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.bg_header {
+    /* filter: brightness(50%); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/шаппка.png');
+    height: 563px;
+    position: relative;
+}
+
+.spasskaya {
+    width: 63px;
+    height: 63px;
+    top: 21px;
+    left: 185px;
+    position: absolute;
+}
+
+.mymoscow {
+    width: 189px;
+    height: 35px;
+    top: 39px;
+    left: 263px;
+    position: absolute;
+}
+.menu {
+    width: 545px;
+    height: 71px;
+    top: 51px;
+    left: 913px;
+    position: absolute;
+    font-family:'Roboto Condensed',regular;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14,5px;
+    font-weight: 400;
+    line-height: 16,99px;
+    margin: 0 10px;
+    display: inline-block;
+    transform: scaleY(0.9);
+    /* letter-spacing: 0%; */
+}
+.menu__list {
+    display: flex;
+    gap: 15px;
+}
+.bg_title {
+    width: 738.67px;
+    height: 180.07px;
+    top: 216.29px;
+    left: 387.2px;
+    gap: 0px;
+    opacity: 0px;    
+    position: absolute;
+}
+
+.bg_title h1 {
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 69.14px;
+    text-align: center;
+    color: white;
+    font-family:'Roboto Condensed',regular ;
+}
+
+.bg_title p {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+    color: white;
+    font-family:'Roboto Condensed',regular ;
+}
+
+.main_div {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main_div h1 {
+    font-family: 'Roboto Condensed',regular;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #709DCA;
+    font-weight: 300;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.div_image {
+    width: 750px;
+}
+
+.div_image img {
+    width: 750px;
+    height: 600px;
+}
+
+.div_text {
+    width: 750px;
+    height: 550px;
+    background-color: orange;
+    color: white;
+    padding: 50px 35px 0px 35px;
+}
+
+.div_text h1 {
+    font-family: 'Roboto Condensed',regular;
+    font-size: 26px;
+    line-height: 30.47px;
+    font-weight: 400;
+}
+
+.div_text p {
+    font-family: 'Roboto Condensed',regular;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+.div_text button {
+    width: 184px;
+    height: 46px;
+    border: 1px 0px 0px 0px;
+    background-color: #F3AF37;
+    border-color: #FFA300;
+    color: white;
+    font-size: 16px;
+    
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 352px;
+    background-color: #394B50;
+    font-family:'Roboto Condensed',regular ;
+}
+
+footer div {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+.booking-button {
+    background-color: #FFC107;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-button:hover {
+    background-color: #FFA000;
+  }
+  
+  /* Стили модального окна */
+  .modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  /* Контент модального окна */
+  .modal-content {
+    background-color: #fff;
+    width: 90%;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+  }
+  
+  /* Кнопка закрытия модального окна */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #aaa;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  
+  /* Заголовок модального окна */
+  .modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Стили формы */
+  #bookingForm label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #555;
+  }
+  
+  #bookingForm input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #FFC107;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #FFA000;
+  }
